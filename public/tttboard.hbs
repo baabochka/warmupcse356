@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/play.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Tic-Tac-Toe game</title>
+    <script src="javascripts/tttengine.js"></script>
+    <script src="javascripts/jquery.min.js"></script>
+</head>
+<body>
+<form method="post">
+    <div class = "nicetext">
+       Hello {{name}}, {{date}}
+    </div>
+
+</form>
+<div class="game-board">
+    <div class="cell" id="0" onclick="make_move(0)"></div>
+    <div class="cell" id="1" onclick="make_move(1)"></div>
+    <div class="cell" id="2" onclick="make_move(2)"></div>
+    <div class="cell" id="3" onclick="make_move(3)"></div>
+    <div class="cell" id="4" onclick="make_move(4)"></div>
+    <div class="cell" id="5" onclick="make_move(5)"></div>
+    <div class="cell" id="6" onclick="make_move(6)"></div>
+    <div class="cell" id="7" onclick="make_move(7)"></div>
+    <div class="cell" id="8" onclick="make_move(8)"></div>
+</div>
+</body>
+</html>
